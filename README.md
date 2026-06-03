@@ -41,8 +41,8 @@ ghcr.io/你的GitHub用户名/你的仓库名:latest
 固定填写：3000
 
 变量名 (Key),变量值示例 (Value),参数说明与获取方式
-UUID,ad58bd8c-d279-48c4-aea2-06c5b63b58f9,节点独立密码。这相当于你这台“服务器”的连接密码。请使用上方的 UUID 生成器生成一个标准的 36 位字符串填入。千万不要用示例里的 UUID！
-ARGO_TOKEN,eyJhIjoiYTM...非常长的一串字母...xODk0In0=,Cloudflare 穿透密钥。你需要登录 Cloudflare Zero Trust，在 Tunnels 中新建一条隧道，选择 Cloudflared 部署方式，在官方给出的安装命令中，复制出那串极长的乱码 Token。
+UUID = ad58bd8c-d279-48c4-aea2-06c5b63bxxxx,节点独立密码。这相当于你这台“服务器”的连接密码。请使用上方的 UUID 生成器生成一个标准的 36 位字符串填入。千万不要用示例里的 UUID！
+ARGO_TOKEN = eyJhIjoiYTM...非常长的一串字母...xODk0In0=,Cloudflare 穿透密钥。你需要登录 Cloudflare Zero Trust，在 Tunnels 中新建一条隧道，选择 Cloudflared 部署方式，在官方给出的安装命令中，复制出那串极长的乱码 Token。
 
 标准 URI 链接模板（请替换括号中的内容）：
 
